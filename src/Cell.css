@@ -1,0 +1,28 @@
+.cell {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-color: var( --grid-border-color);
+  margin: 0;
+  cursor: pointer;
+}
+.row > .cell:last-child {
+  border-right: 1px solid var( --grid-border-color);
+}
+.selected {
+  background: red !important;
+}
+
+.start, .end {
+  background: #0072ff !important;
+}
+.visited {
+  background: lightblue;
+  transition: 1s;
+}
+.path {
+  background: lightseagreen;
+  transition: 1.5s;
+}

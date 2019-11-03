@@ -1,3 +1,7 @@
+# Pathfinding Algorithms
+
+Pathfinding algorithms visualizer (A* Search, Dijkstra, BFS, DFS). Demo: [https://lluiscamino.github.io/pathfinding-algorithms/](https://lluiscamino.github.io/pathfinding-algorithms/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

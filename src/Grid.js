@@ -7,8 +7,8 @@ import MySnackbarContentWrapper from './MySnackbarContentWrapper';
 
 export default function Grid(props) {
 
-  const NUM_ROWS = 20;
-  const NUM_COLUMNS = 36;
+  const NUM_ROWS = (3 / 4) * window.innerHeight / 26;
+  const NUM_COLUMNS = (window.innerWidth - 120) / 26;
   const rows = [];
 
   const [startPos, setStartPos] = useState({ x: Math.floor(NUM_ROWS / 2), y: Math.floor(NUM_COLUMNS / 5) });

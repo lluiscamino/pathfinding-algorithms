@@ -30,7 +30,7 @@ function App() {
             <SettingsIcon />
           </IconButton>
           <IconButton color="inherit" style={{ marginLeft: 10 }}
-            href="https://github.com" target="_blank" rel="noopener">
+            href="https://github.com/lluiscamino/pathfinding-algorithms" target="_blank" rel="noopener">
             <Icon className="fab fa-github" />
           </IconButton>
         </Toolbar>
